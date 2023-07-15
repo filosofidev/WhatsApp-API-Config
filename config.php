@@ -14,7 +14,7 @@ function sendMessage($wa_no, $wa_text) {
         'device_id' => '3b406fa2eb5a1dd20f6e7d81e846jtql', //id device yang terkoneksi dengan aplikasi whatsapp
         'number' => $nohp,
         'message' => $pesan,
-        //'file' => 'https://urlgambar-file',
+        'file' => 'https://urlgambar-file',
     );
     $payload = $data;
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
