@@ -6,7 +6,7 @@
 /* WhatsApp API config */
 $wa_no = $_SESSION['receipt_record']['memberPhone'];
 function sendMessage($wa_no, $wa_text) {
-    $url = 'https://api.sman1cepu.sch.id/send';
+    $url = 'https://api.filodev.id/send';
     $ch = curl_init($url);
     $nohp= $wa_no;
     $pesan= $wa_text;
